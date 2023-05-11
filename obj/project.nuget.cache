@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "BX9fJwV505td6n3AMOSlR+/kqJ20AAhjuLlMxI5boDzMWNacN3H83gMPkKiwQiZjHpQpxCLq2hTtqFxsJMcsUg==",
+  "success": true,
+  "projectFilePath": "/Users/mathieuthibeault-thuot/SynologyDrive/Mathieu/coding/altv/Gamemode/Gamemode/Gamemode.csproj",
+  "expectedPackageFiles": [
+    "/Users/mathieuthibeault-thuot/.nuget/packages/altv.net/13.0.20-dev/altv.net.13.0.20-dev.nupkg.sha512",
+    "/Users/mathieuthibeault-thuot/.nuget/packages/altv.net.capi/13.0.20-dev/altv.net.capi.13.0.20-dev.nupkg.sha512",
+    "/Users/mathieuthibeault-thuot/.nuget/packages/altv.net.resources.chat.api/13.0.20-dev/altv.net.resources.chat.api.13.0.20-dev.nupkg.sha512",
+    "/Users/mathieuthibeault-thuot/.nuget/packages/altv.net.shared/13.0.20-dev/altv.net.shared.13.0.20-dev.nupkg.sha512",
+    "/Users/mathieuthibeault-thuot/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
+    "/Users/mathieuthibeault-thuot/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0-rc.2.22472.3/microsoft.extensions.logging.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "/Users/mathieuthibeault-thuot/.nuget/packages/npgsql/7.0.0-rc.2/npgsql.7.0.0-rc.2.nupkg.sha512",
+    "/Users/mathieuthibeault-thuot/.nuget/packages/system.runtime.compilerservices.unsafe/7.0.0-preview.2.22152.2/system.runtime.compilerservices.unsafe.7.0.0-preview.2.22152.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <OutputPath>../../docker/resources/gamemode/server/net6.0/</OutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AltV.Net" Version="13.0.20-dev" />
+        <PackageReference Include="AltV.Net.CApi" Version="13.0.20-dev" />
+        <PackageReference Include="AltV.Net.Resources.Chat.Api" Version="13.0.20-dev" />
+        <PackageReference Include="AltV.Net.Shared" Version="13.0.20-dev" />
+        <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0-rc.2.22472.3" />
+        <PackageReference Include="Npgsql" Version="7.0.0-rc.2" />
+        <AllOutputFiles Include="$(OutputPath)\publish\*.*" />
+        <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="7.0.0-preview.2.22152.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <AllOutputFiles Include="$(OutputPath)\publish\*.*" />
+        <Folder Include="core\Event\PlayerEvent" />
+        <Folder Include="core\Event\ServerEvent" />
+    </ItemGroup>
+
+    <Target Name="CopyFiles" AfterTargets="net6.0">
+        <PropertyGroup>
+            <CopiedFiles>$(OutputPath)\net6.0\*.*</CopiedFiles>
+            <TargetLocation Condition=" '$(Configuration)' == 'Release' ">../../resources/gamemode/server/</TargetLocation>
+        </PropertyGroup>
+        <Copy Condition=" '$(TargetLocation)' != '' " SourceFiles="@(AllOutputFiles)" DestinationFolder="$(TargetLocation)" SkipUnchangedFiles="false" />
+    </Target>
+
+</Project>

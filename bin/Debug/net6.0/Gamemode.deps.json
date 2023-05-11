@@ -1,0 +1,166 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Gamemode/1.0.0": {
+        "dependencies": {
+          "AltV.Net": "13.0.20-dev",
+          "AltV.Net.CApi": "13.0.20-dev",
+          "AltV.Net.Resources.Chat.Api": "13.0.20-dev",
+          "AltV.Net.Shared": "13.0.20-dev",
+          "BCrypt.Net-Next": "4.0.3",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-rc.2.22472.3",
+          "Npgsql": "7.0.0-rc.2",
+          "System.Runtime.CompilerServices.Unsafe": "7.0.0-preview.2.22152.2"
+        },
+        "runtime": {
+          "Gamemode.dll": {}
+        }
+      },
+      "AltV.Net/13.0.20-dev": {
+        "dependencies": {
+          "AltV.Net.Shared": "13.0.20-dev"
+        },
+        "runtime": {
+          "lib/net6.0/AltV.Net.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AltV.Net.CApi/13.0.20-dev": {
+        "runtime": {
+          "lib/net6.0/AltV.Net.CApi.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AltV.Net.Resources.Chat.Api/13.0.20-dev": {
+        "dependencies": {
+          "AltV.Net": "13.0.20-dev"
+        },
+        "runtime": {
+          "lib/net6.0/AltV.Net.Resources.Chat.Api.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AltV.Net.Shared/13.0.20-dev": {
+        "dependencies": {
+          "AltV.Net.CApi": "13.0.20-dev"
+        },
+        "runtime": {
+          "lib/net6.0/AltV.Net.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "BCrypt.Net-Next/4.0.3": {
+        "runtime": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.0.3.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/7.0.0-rc.2.22472.3": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        }
+      },
+      "Npgsql/7.0.0-rc.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-rc.2.22472.3",
+          "System.Runtime.CompilerServices.Unsafe": "7.0.0-preview.2.22152.2"
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/7.0.0-preview.2.22152.2": {
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.15202"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gamemode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AltV.Net/13.0.20-dev": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6EKM5BlyxfU/D3ouoriyqCKwfzsiwQte3C5pIvvwrrhgH0dUfgaH7mM5etSCVyQQ4BQ8BeFVlTSfTjtcvr9ZTQ==",
+      "path": "altv.net/13.0.20-dev",
+      "hashPath": "altv.net.13.0.20-dev.nupkg.sha512"
+    },
+    "AltV.Net.CApi/13.0.20-dev": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wk9QCoMtJgA73faNx0t+ErpqNoGnEvMJTd5BySkHojHr+viHizYOAdh/E4YTUwlJB1vVGQoJvEHswk0Ml0yFag==",
+      "path": "altv.net.capi/13.0.20-dev",
+      "hashPath": "altv.net.capi.13.0.20-dev.nupkg.sha512"
+    },
+    "AltV.Net.Resources.Chat.Api/13.0.20-dev": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GEI5Fr3BFfF1F4NVjNzyS2gInLGWcB7avzfxa2W8MF6+5CAAx47V5PBGwk/zDqfQwMko6mJAHuxlMHAS1SVqLg==",
+      "path": "altv.net.resources.chat.api/13.0.20-dev",
+      "hashPath": "altv.net.resources.chat.api.13.0.20-dev.nupkg.sha512"
+    },
+    "AltV.Net.Shared/13.0.20-dev": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9PizyEU0FwWMXyou/alyMtEyhh5DNXSrn20Xb+efiaVFshx9T9vqrKHpaiMcI24JLDSLmNANkq2AmXgT1mJAKA==",
+      "path": "altv.net.shared/13.0.20-dev",
+      "hashPath": "altv.net.shared.13.0.20-dev.nupkg.sha512"
+    },
+    "BCrypt.Net-Next/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
+      "path": "bcrypt.net-next/4.0.3",
+      "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/7.0.0-rc.2.22472.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2BjU2gAupioo+bEYIeRvqND+JGs/3jtuw9/uba35StZcqGekq5ew0omakVEuP0j+P39YdzUnHEzVPAiKlW/lXw==",
+      "path": "microsoft.extensions.logging.abstractions/7.0.0-rc.2.22472.3",
+      "hashPath": "microsoft.extensions.logging.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512"
+    },
+    "Npgsql/7.0.0-rc.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FIdl5AQ1L0K2x1danoC6ItKeb7c1Xm8x0MYiVyLoWMRDuEl10P61mPfE/MCC+Y6PROId2D/uBpHgcdPs4Y65qw==",
+      "path": "npgsql/7.0.0-rc.2",
+      "hashPath": "npgsql.7.0.0-rc.2.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/7.0.0-preview.2.22152.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6g+opYT/xN4Peft3Tar0kmB4FCFqEe4Rd8lDCK055bdod9kQWyuZTVotjwRA1C5x4zH+x8GhDLzDIee1WH2kmw==",
+      "path": "system.runtime.compilerservices.unsafe/7.0.0-preview.2.22152.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.7.0.0-preview.2.22152.2.nupkg.sha512"
+    }
+  }
+}

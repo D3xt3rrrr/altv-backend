@@ -1,0 +1,10 @@
+/Users/mathieuthibeault-thuot/SynologyDrive/Mathieu/coding/altv/Gamemode/Gamemode/Gamemode/bin/Debug/net6.0/publish/Gamemode.dll
+/Users/mathieuthibeault-thuot/SynologyDrive/Mathieu/coding/altv/Gamemode/Gamemode/Gamemode/bin/Debug/net6.0/publish/Gamemode.deps.json
+/Users/mathieuthibeault-thuot/SynologyDrive/Mathieu/coding/altv/Gamemode/Gamemode/Gamemode/bin/Debug/net6.0/publish/Gamemode.pdb
+/Users/mathieuthibeault-thuot/SynologyDrive/Mathieu/coding/altv/Gamemode/Gamemode/Gamemode/bin/Debug/net6.0/publish/AltV.Net.dll
+/Users/mathieuthibeault-thuot/SynologyDrive/Mathieu/coding/altv/Gamemode/Gamemode/Gamemode/bin/Debug/net6.0/publish/AltV.Net.CApi.dll
+/Users/mathieuthibeault-thuot/SynologyDrive/Mathieu/coding/altv/Gamemode/Gamemode/Gamemode/bin/Debug/net6.0/publish/AltV.Net.Resources.Chat.Api.dll
+/Users/mathieuthibeault-thuot/SynologyDrive/Mathieu/coding/altv/Gamemode/Gamemode/Gamemode/bin/Debug/net6.0/publish/AltV.Net.Shared.dll
+/Users/mathieuthibeault-thuot/SynologyDrive/Mathieu/coding/altv/Gamemode/Gamemode/Gamemode/bin/Debug/net6.0/publish/BCrypt.Net-Next.dll
+/Users/mathieuthibeault-thuot/SynologyDrive/Mathieu/coding/altv/Gamemode/Gamemode/Gamemode/bin/Debug/net6.0/publish/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/mathieuthibeault-thuot/SynologyDrive/Mathieu/coding/altv/Gamemode/Gamemode/Gamemode/bin/Debug/net6.0/publish/Npgsql.dll
